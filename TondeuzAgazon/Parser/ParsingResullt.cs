@@ -5,7 +5,7 @@ using TondeuzAgazon.Actors;
 
 namespace TondeuzAgazon.Parser
 {
-    public class ParsingResullt
+    public class ParsingResult
     {
         public int Width { get; set; }
         public int Height { get; set; }

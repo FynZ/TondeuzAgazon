@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TondeuzAgazon/1.0.0": {
+        "runtime": {
+          "TondeuzAgazon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TondeuzAgazon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

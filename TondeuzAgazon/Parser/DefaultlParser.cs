@@ -7,9 +7,9 @@ using TondeuzAgazon.Actors;
 
 namespace TondeuzAgazon.Parser
 {
-    class DefaultlParser : IParser<ParsingResullt>
+    class DefaultlParser : IParser<ParsingResult>
     {
-        public ParsingResullt Parse(FileInfo fi)
+        public ParsingResult Parse(FileInfo fi)
         {
             if (!fi.Exists)
             {
@@ -18,7 +18,7 @@ namespace TondeuzAgazon.Parser
 
             using (var stream = new StreamReader(fi.Open(FileMode.Open)))
             {
-                var result = new ParsingResullt();
+                var result = new ParsingResult();
 
                 var line = stream.ReadLine();
 
@@ -39,9 +39,9 @@ namespace TondeuzAgazon.Parser
                         result.LawnMowers.Add(GetLawnMower(upperLine, lowerLine));
                     }
                 }
-            }
 
-            return null;
+                return result;
+            }
         }
 
         private LawnSize GetLawnSize(string line)

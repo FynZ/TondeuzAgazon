@@ -1,3 +1,11 @@
 C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.csprojAssemblyReference.cache
 C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.AssemblyInfoInputs.cache
 C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.AssemblyInfo.cs
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.exe
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.deps.json
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.runtimeconfig.json
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.runtimeconfig.dev.json
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.dll
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\bin\Debug\netcoreapp3.0\TondeuzAgazon.pdb
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.dll
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.pdb
