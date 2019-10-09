@@ -1,0 +1,3 @@
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.csprojAssemblyReference.cache
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.AssemblyInfoInputs.cache
+C:\Users\Fynzie\source\repos\TondeuzAgazon\TondeuzAgazon\obj\Debug\netcoreapp3.0\TondeuzAgazon.AssemblyInfo.cs

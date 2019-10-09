@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
+        "projectName": "TondeuzAgazon",
+        "projectPath": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
+        "packagesPath": "C:\\Users\\Fynzie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fynzie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
