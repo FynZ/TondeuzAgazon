@@ -7,7 +7,7 @@ using TondeuzAgazon.Actors;
 
 namespace TondeuzAgazon.Parser
 {
-    class DefaultlParser : IParser<ParsingResult>
+    public class DefaultlParser : IParser<ParsingResult>
     {
         public ParsingResult Parse(FileInfo fi)
         {
@@ -98,9 +98,9 @@ namespace TondeuzAgazon.Parser
             return false;
         }
 
-        private LawnMower GetLawnMower(string positionLine, string actionLine)
+        private LawnMowerData GetLawnMower(string positionLine, string actionLine)
         {
-            var lawnMower = new LawnMower();
+            var lawnMower = new LawnMowerData();
 
             var split = positionLine.Split(" ");
 

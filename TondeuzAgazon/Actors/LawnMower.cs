@@ -4,16 +4,17 @@ using System.Text;
 
 namespace TondeuzAgazon.Actors
 {
-    public class LawnMower : IDrawable
+    class LawnMower
     {
         public int X { get; set; }
         public int Y { get; set; }
         public Orientation Orientation { get; set; }
-        public IList<Rotation> Moves { get; set; }
 
-        public char Draw()
+        public LawnMower(int x, int y, Orientation orientation)
         {
-            throw new NotImplementedException();
+            X = x;
+            Y = y;
+            Orientation = orientation;
         }
     }
 }

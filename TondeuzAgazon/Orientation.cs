@@ -14,7 +14,7 @@ namespace TondeuzAgazon
 
     public static class OrientationExtension
     {
-        private static int ValueCount = Enum.GetNames(typeof(Orientation)).Length;
+        private static readonly int ValueCount = Enum.GetNames(typeof(Orientation)).Length;
 
         public static Orientation PreviousValue(this Orientation orientation)
         {

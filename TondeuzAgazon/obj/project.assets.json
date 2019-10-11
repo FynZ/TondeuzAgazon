@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Fynzie\\.nuget\\packages\\": {},
+    "C:\\Users\\vdebote\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
+      "projectUniqueName": "D:\\study\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
       "projectName": "TondeuzAgazon",
-      "projectPath": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
-      "packagesPath": "C:\\Users\\Fynzie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fynzie\\source\\repos\\TondeuzAgazon\\TondeuzAgazon\\obj\\",
+      "projectPath": "D:\\study\\TondeuzAgazon\\TondeuzAgazon\\TondeuzAgazon.csproj",
+      "packagesPath": "C:\\Users\\vdebote\\.nuget\\packages\\",
+      "outputPath": "D:\\study\\TondeuzAgazon\\TondeuzAgazon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Fynzie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vdebote\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

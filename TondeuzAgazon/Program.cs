@@ -14,10 +14,19 @@ namespace TondeuzAgazon
             {
                 Width = 10,
                 Height = 10,
-                LawnMowers = new List<LawnMower>()
+                LawnMowers = new List<LawnMowerData>()
             });
 
             lawn.Draw();
+
+            while (lawn.GameFinished == false)
+            {
+                Console.Clear();
+                lawn.ExecuteNextTurn();
+                lawn.Draw();
+
+                Console.ReadKey();
+            }
         }
     }
 }

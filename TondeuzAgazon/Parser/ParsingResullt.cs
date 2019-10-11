@@ -9,6 +9,6 @@ namespace TondeuzAgazon.Parser
     {
         public int Width { get; set; }
         public int Height { get; set; }
-        public IList<LawnMower> LawnMowers { get; set; }
+        public IList<LawnMowerData> LawnMowers { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TondeuzAgazon.Actors;
 using TondeuzAgazon.Parser;
@@ -8,26 +9,43 @@ namespace TondeuzAgazon.Orchestrator
 {
     public class LawnOrchestrator
     {
-        public char[,] Lawn { get; set; }
-        public IList<LawnMower> LawnMowers { get; set; }
+        private char[,] _lawn { get; set; }
+        private IList<LawnMowerProxy> _lawnMowers { get; set; }
+
+        public bool GameFinished { get; set; }
 
         public LawnOrchestrator(ParsingResult input)
         {
-            Lawn = new char[input.Width, input.Height];
+            _lawn = new char[input.Width, input.Height];
 
-            LawnMowers = input.LawnMowers;
+            _lawnMowers = input.LawnMowers.Select(x => new LawnMowerProxy(x)).ToList();
         }
 
         public void ExecuteNextTurn()
         {
+            var atLeastOneMowerPlayed = false;
 
+            foreach (var mower in _lawnMowers)
+            {
+                if (!mower.HasFinished)
+                {
+                    mower.MoveNext(_lawn);
+
+                    atLeastOneMowerPlayed = true;
+                }
+            }
+
+            if (atLeastOneMowerPlayed == false)
+            {
+                GameFinished = true;
+            }
         }
 
         public void Draw()
         {
             var sb = new StringBuilder();
-            int rowLength = Lawn.GetLength(0);
-            int colLength = Lawn.GetLength(1);
+            int rowLength = _lawn.GetLength(0);
+            int colLength = _lawn.GetLength(1);
 
             sb.Append(new string('-', rowLength + 2));
             sb.Append(Environment.NewLine);
@@ -38,7 +56,12 @@ namespace TondeuzAgazon.Orchestrator
 
                 for (int j = 0; j < colLength; j++)
                 {
-                    //sb.Append(string.Format("{0}", Lawn[i, j]));
+                    // a lawnMower is at the position we are drawing
+                    if (_lawnMowers.Any(x => x.GetPosition().a == i && x.GetPosition().b == j))
+                    {
+                        sb.Append('X');
+                    }
+
                     sb.Append("O");
                 }
 
